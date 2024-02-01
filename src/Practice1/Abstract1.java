@@ -19,6 +19,7 @@ public class Abstract1 extends Testing1 {
 		obj.test3();
 		obj.test4();
 		// HashMap<String, String> mm = new HashMap<String, String>();
+		System.out.println("Changing Testing Repos Project");
 		
 	}
 	public void test1() {

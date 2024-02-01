@@ -20,6 +20,7 @@ public class Abstract2 {
 		System.out.println("The rate of interest is :"+obj.getRateOFInterest()+"%");
 		obj = new HDFC();
 		System.out.println("The rate of interest is :"+obj.getRateOFInterest()+"%");
+		System.out.println("Changing Abstract 2....");
 	}
 
 }
