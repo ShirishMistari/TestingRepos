@@ -24,6 +24,8 @@ public class ArmstrongNumberIn1000 {
 	    System.out.println("*******");
 	    System.out.println(b);
 		System.out.println(c);
+		
+		System.out.println("Add This Line to modify by owner 2.....");
 	    
 		
 		
