@@ -1,9 +1,32 @@
 package Practice2;
 
 public class ArmstrongNumberIn1000 {
-
+ 
+	int a=500;
+	char charrr = 'A';
+	static int b=1000;
+	static char c = 'M';
 	public static void main(String[] args) {
+		ArmstrongNumberIn1000 bb = new ArmstrongNumberIn1000();
 		PrintArmstrongNumberBetween1000();
+		System.out.println("call By Reference");
+		System.out.println(bb.a);
+		System.out.println(bb.charrr);
+		System.out.println("*********");
+		bb.Test(bb);
+		System.out.println(bb.a);
+		System.out.println(bb.charrr);
+		System.out.println("call By Value");
+		System.out.println(b);
+		System.out.println(c);
+		System.out.println("******");
+	    bb.Test1(1000,'Z');
+	    System.out.println("*******");
+	    System.out.println(b);
+		System.out.println(c);
+	    
+		
+		
 	}
 	public static void PrintArmstrongNumberBetween1000() {
 		for(int n=0;n<=1000;n++) {
@@ -18,6 +41,15 @@ public class ArmstrongNumberIn1000 {
 				System.out.println(n);
 			}
 		}
+	}
+	
+	public void Test(ArmstrongNumberIn1000 oo) { //Call by Reference...
+		 int a = oo.a=100;
+		char charrr =  oo.charrr = 'B';
+	}
+	public void Test1(int b, char c) {
+		System.out.println(b);
+		System.out.println(c);
 	}
 }
 	
